@@ -1,4 +1,4 @@
-;; nixops-tramp.el --- TRAMP integration for nixops deployments
+;;; nixops-tramp.el --- TRAMP integration for nixops deployments
 
 ;; Copyright (C) 2016 Travis Athougies <travis@athougies.net>
 
@@ -6,7 +6,7 @@
 ;; URL: https://github.com/tathougies/nixops-tramp.el
 ;; Keywords: nixops, convenience, tramp
 ;; Version: 0.1
-;; Packages-Requires ((emacs "24") (exec-path-from-shell "0"))
+;; Package-Requires: ((emacs "24") (exec-path-from-shell "0"))
 
 ;;  This file is NOT part of GNU Emacs.
 
@@ -130,4 +130,4 @@ TRAMP calls this function with a filename which we ignore."
 ;; indent-tabs-mode: nil
 ;; End:
 
-;; nixops-tramp.el ends here
+;;; nixops-tramp.el ends here
